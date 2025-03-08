@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Fondo para el encabezado */
+.header-background {
+    background-color: #355a80; /* Color de fondo oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-text {
+    flex: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff; /* Texto blanco para contrastar con el fondo */
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #ecf0f1; /* Texto claro */
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.contacto ul li, .educacion ul li, .experiencia ul li, .habilidades ul li, .reconocimiento ul li, .proyectos ul li {
+    padding: 2px 0;
+}
+
+.experiencia h3, .educacion h3, .reconocimiento h3, .proyectos h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.experiencia p, .educacion p, .reconocimiento p, .proyectos p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.contact-columns {
+    display: flex; /* Activa el diseño flexible */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.contact-columns ul {
+    flex: 1; /* Cada columna ocupa el mismo espacio */
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.contact-columns ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    padding: 10px; /* Espaciado interno para mejor legibilidad */
+    background-color: #f9f9f9; /* Fondo claro para cada elemento */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex; /* Alinea el icono y el texto */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espacio entre el icono y el texto */
+}
+
+.experiencia ul li, .educacion ul li, .reconocimiento ul li, .proyectos ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    padding: 10px; /* Espaciado interno para mejor legibilidad */
+    background-color: #f9f9f9; /* Fondo claro para cada elemento */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px;
+}
+
+.contact-columns ul li i {
+    font-size: 1.2em; /* Tamaño del icono */
+    color: #3b82f6; /* Color azul para los iconos */
+}
+
+.contact-columns ul li a {
+    color: inherit; /* Hereda el color del texto padre */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.contact-columns ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+.contacto ul li a {
+    color: inherit; /* Hereda el color del texto padre */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.contacto ul li a:hover {
+    text-decoration: none; /* Sin subrayado al pasar el mouse */
+    color: inherit; /* Mantiene el color del texto */
+}
+.skills-columns {
+    display: flex; /* Activa el diseño flexible */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.skills-columns ul {
+    flex: 1; /* Cada columna ocupa el mismo espacio */
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.skills-columns ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    padding: 5px; /* Espaciado interno para mejor legibilidad */
+    background-color: #f9f9f9; /* Fondo claro para cada elemento */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
