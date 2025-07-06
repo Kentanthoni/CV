@@ -15,10 +15,8 @@ This repository contains my professional Curriculum Vitae (CV) or Resume, showca
 - **Vercel**: For hosting and deployment.
 
 ## How to View
-You can view the live version of my CV here: [Live Demo](https://tu-proyecto.vercel.app)
+You can view the live version of my CV here: [Live Demo](https://kentanthonicv.vercel.app)
 
 ## How to Use
 If you'd like to use this template for your own CV, feel free to fork this repository and customize it to suit your needs.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
